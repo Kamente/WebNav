@@ -102,15 +102,15 @@
 
     .nav-links {
         text-align: center;
-        padding: 2rem;
-        width: 100%;
-        display: table;
+        padding: 0.2rem;
+        width: 80%;
+        display: block;
     }
 
     .nav-links:hover {
         background-color: #fff;
         color: #242424;
-        border-radius: 0;
+        border-radius: 10px;
     }
 
     .navbar-logo {
