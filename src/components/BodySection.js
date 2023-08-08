@@ -11,4 +11,4 @@ function BodySection() {
     )
 }
 
-export default BodySection
+export default BodySection;
