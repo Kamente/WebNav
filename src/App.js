@@ -1,15 +1,15 @@
 import React from "react";
 import Navbar from "./components/Navbar";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import BodySection from "./components/BodySection";
+// import BodySection from "./components/BodySection";
+import Home from "./components/Home";
 
 function App() {
   return (
     <Router>
       <Navbar />
-      <BodySection />
       <Routes>
-        <Route path="/" exact />
+        <Route path="/" exact Component={Home} />
       </Routes>
     </Router>
   );
