@@ -7,7 +7,7 @@ function BodySection() {
     return (
         <div className='bodysection-container'>
             <video src='/public/videos/video-2.mp4' autoPlay loop muted></video>
-            <h2>Ready for Wonder Land ?</h2>
+            <h1>Ready for Wonder Land ?</h1>
             <div className='body-btns'>
                 <Button className='btn'
                     buttonStyle='btn--primary'
