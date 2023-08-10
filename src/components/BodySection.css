@@ -7,7 +7,7 @@ video {
 }
 
 .bodysection-container {
-    background: url(/public/images/img-home.jpg) center center/cover no-repeat;
+    background: url(/public/images/img-5.jpg) center center/cover no-repeat;
     height: 100vh;
     width: 100%;
     display: flex;
@@ -17,6 +17,6 @@ video {
     object-fit: contain;
 }
 .bodysection-container > h1{
-    color: black;
+    color: white;
     font-size: 2em;
 }
